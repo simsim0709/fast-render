@@ -41,7 +41,7 @@ Package.onTest(function(api) {
 });
 
 function configure (api) {
-  api.versionsFrom('METEOR@0.9.3');
+  api.versionsFrom('METEOR@1.2');
   api.use('thelohoadmin:inject-data@2.0.1', ['client', 'server']);
   api.use('iron:router@0.9.0 || 1.0.0', ['client', 'server'], {weak: true});
   api.use('chuangbo:cookie@1.1.0', 'client');
